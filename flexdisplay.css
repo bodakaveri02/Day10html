@@ -1,0 +1,15 @@
+.container{
+    background-color: rgb(71, 211, 24);
+    width:500px;
+    height: 500px;
+    display:flex;
+    border: solid;
+    flex-direction: column-reverse;
+}
+.rooms{
+    background-color: rgb(61, 19, 229);
+    width:100px;
+    height: 100px;
+    display:flex;
+border: solid;
+}
