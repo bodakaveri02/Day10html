@@ -1,0 +1,33 @@
+#static{
+    background-color: aqua;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+#relative{
+background-color: aquamarine;
+position: relative;
+top: 100px;
+left: 100px;
+
+}
+#obsolute{
+    background-color:purple;
+position: absolute;
+top: 100px;
+left: 100px; 
+
+}
+#fixed{
+background-color:chartreuse;
+position:fixed;
+top: 100px;
+left: 100px; 
+}
+div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: solid black;
+}
