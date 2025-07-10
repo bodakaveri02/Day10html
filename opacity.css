@@ -1,12 +1,14 @@
 #alpha{
-    background-color: rgb(100, 150, 60, 0);/*0-1=alpha*/
-    opacity:0.3;
-    height: 100px;
-    width:100px;
+    background-color: rgb(100, 150, 60, 1);/*0-1=alpha*/ 
 }
 #opacity{
     background-color: aqua;
-    opacity: 0.7;
+    opacity: 1;
+}
+#box{
+    background-color: blue;
     height:100px;
     width:100px;
+   margin:10px auto;
+    box-shadow: 2px 2px 5px black;
 }
