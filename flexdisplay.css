@@ -1,15 +1,33 @@
 .container{
-    background-color: rgb(71, 211, 24);
+   background-color: rgb(71, 211, 24);
     width:500px;
     height: 500px;
-    display:flex;
-    border: solid;
-    flex-direction: column-reverse;
+    /*display:flex;*/
+   /* border: solid;*/
+   /* flex-direction: column-reverse;*/
+    /*justify-content:space-between;*/
+    /*flex-wrap: wrap-reverse;*/
+    /*align-items: baseline;*/
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-columns: auto auto auto;
+    grid-gap:10px 20px;
+
 }
-.rooms{
+#item{
     background-color: rgb(61, 19, 229);
     width:100px;
     height: 100px;
-    display:flex;
-border: solid;
+    border: solid;
+}
+.tem4{
+    background-color: rgb(61, 19, 229);
+    width:50px;
+    height: 50px;
+    display:grid;
+    border: solid;
+    flex-basis: 100px;
+    flex-grow: 2;
+    font-size: 2em;
+    
 }
